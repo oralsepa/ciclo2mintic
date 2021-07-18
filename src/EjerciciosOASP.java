@@ -1,11 +1,8 @@
-/*
-javac EjerciciosOASP.java
+/*  Comandos para ejecutar por terminal....
+    javac EjerciciosOASP.java
+    javac EjerciciosOASP*/
 
-javac EjerciciosOASP
-*/
-
-/* 
-git o github
+/*  git o github
 …or create a new repository on the command line
     echo "# ciclo2" >> README.md
     git init
@@ -17,12 +14,7 @@ git o github
 …or push an existing repository from the command line
     git remote add origin https://github.com/oralsepa/ciclo2mintic.git
     git branch -M main
-    git push -u origin main
-
-1.click dercho y "git bash here"
-2.add .
-
-*/
+    git push -u origin main*/
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -45,36 +37,36 @@ public class EjerciciosOASP {
         sc.close();
 
         /*if (){
-
         } else if (){
-
         } else {
-
         }
 
         switch (){
             case valor 1:
-
             break;
             case valor 2:
-
             break;
             default:
-
         }
 
         while (){
-
         }
 
-
-        do{
-             
+        do{    
         } while();
 
         for(ini;condicion;incremento){
-
-        }*/
+        }
+        
+        Tipos de datos: boolean, byte, char, short, int, long, float, double, 
+        Caracteres: \t tabulador
+                    \b backspace (retroceso)
+                    \n nueva linea
+                    \r retorno de Carro
+                    \f salto de linea
+                    \´ comilla simple
+                    \" comilla doble
+                    \\ barra invertida*/
 
         String s1 = "Orlando ";
         String s2 = s1 + "Alberto";
@@ -92,10 +84,7 @@ public class EjerciciosOASP {
         valueOf(2344); //convierte el dato a string
         s3.trim(); //elimina los espacios en blanco de los extremos
 
-        
-
-
-        
+         
     }
 }
 
